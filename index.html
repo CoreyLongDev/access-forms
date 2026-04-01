@@ -27,25 +27,25 @@
 			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
 		</article>
 		<!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
-		<form action="https://wp.zybooks.com/form-viewer.php" method="post">
-			<label for="full-name">Full Name:</label>
+		<form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+			<label for="full-name">Full Name</label>
 			<input type="text" id="full-name" name="full-name" required>
 
-			<label for="email">Email:</label>
+			<label for="email">Email</label>
 			<input type="email" id="email" name="email" required>
 
-			<label for="phone">Phone:</label>
+			<label for="phone">Phone</label>
 			<input type="tel" id="phone" name="phone" required>
 
 			<fieldset>
 				<legend>Preferred Method of Contact</legend>
-				<input type="radio" id="contact-email" name="contact-method" value="email" required>
+				<input type="radio" id="contact-email" name="contact-method" value="email">
 				<label for="contact-email">Email</label>
 				<input type="radio" id="contact-phone" name="contact-method" value="phone" checked>
 				<label for="contact-phone">Phone</label>
 			</fieldset>
 
-			<label for="residence">State:</label>
+			<label for="residence">State</label>
 			<select id="residence" name="residence" required>	
 				<option value="AL">Alabama</option>
 				<option value="AK">Alaska</option>
@@ -74,7 +74,7 @@
 				<option value="MO">Missouri</option>
 				<option value="MT">Montana</option>
 				<option value="NE">Nebraska</option>
-				<option value="NV">Neveda</option>
+				<option value="NV">Nevada</option>
 				<option value="NH">New Hampshire</option>
 				<option value="NJ">New Jersey</option>
 				<option value="NM">New Mexico</option>
